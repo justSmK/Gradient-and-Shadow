@@ -13,7 +13,7 @@
 		BB78454E29FFB7BE0059664D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB78454C29FFB7BE0059664D /* Main.storyboard */; };
 		BB78455029FFB7BE0059664D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB78454F29FFB7BE0059664D /* Assets.xcassets */; };
 		BB78455329FFB7BE0059664D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB78455129FFB7BE0059664D /* LaunchScreen.storyboard */; };
-		BBF4669629FFBC8A008EAFBA /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF4669529FFBC8A008EAFBA /* RoundedView.swift */; };
+		BBF4669A29FFC109008EAFBA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF4669929FFC109008EAFBA /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		BB78454F29FFB7BE0059664D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB78455229FFB7BE0059664D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB78455429FFB7BE0059664D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBF4669529FFBC8A008EAFBA /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		BBF4669929FFC109008EAFBA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				BB78454F29FFB7BE0059664D /* Assets.xcassets */,
 				BB78455129FFB7BE0059664D /* LaunchScreen.storyboard */,
 				BB78455429FFB7BE0059664D /* Info.plist */,
-				BBF4669529FFBC8A008EAFBA /* RoundedView.swift */,
+				BBF4669929FFC109008EAFBA /* GradientView.swift */,
 			);
 			path = "Gradient and Shadow";
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF4669629FFBC8A008EAFBA /* RoundedView.swift in Sources */,
 				BB78454B29FFB7BE0059664D /* ViewController.swift in Sources */,
 				BB78454729FFB7BE0059664D /* AppDelegate.swift in Sources */,
+				BBF4669A29FFC109008EAFBA /* GradientView.swift in Sources */,
 				BB78454929FFB7BE0059664D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
